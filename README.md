@@ -18,19 +18,28 @@ Part 1. Split the Data into Training and Testing Sets.
   2. Create the labels set (y) from the loan_status column, then create the features X Dataframe from the remaining columns.
      
 ![image](https://github.com/AnnLy2023/Module-20---Supervised-Learning/assets/129100456/6fa32ba6-2305-40ce-9124-ac84750f4bdc)
+
   3. Split the data into training adn testing datasets by using train_test_split.
-  ![image](https://github.com/AnnLy2023/Module-20---Supervised-Learning/assets/129100456/c069e35b-d225-4cd1-a737-00836d4be968)
+     
+![image](https://github.com/AnnLy2023/Module-20---Supervised-Learning/assets/129100456/c069e35b-d225-4cd1-a737-00836d4be968)
 
 
 Part 2. Create a Logistic Regression Model with the Original Data. 
   1. Fit a logistic regression model by using the training data X_train and y_train.
+     
   ![image](https://github.com/AnnLy2023/Module-20---Supervised-Learning/assets/129100456/ed9242d5-d03d-4e11-928d-12c5f467ba7e)
-  2. Save teh predictions for teh testing data labels by using the testing feature data (X_test) and the fitted model.
+  
+  3. Save teh predictions for teh testing data labels by using the testing feature data (X_test) and the fitted model.
+
   ![image](https://github.com/AnnLy2023/Module-20---Supervised-Learning/assets/129100456/75a70705-8e15-48f9-ae8b-cfe342fc9187)
-  3. Evaluate teh model's performance by generate a confusion matrix and print the classification report.
+  
+  5. Evaluate teh model's performance by generate a confusion matrix and print the classification report.
+     
      ![image](https://github.com/AnnLy2023/Module-20---Supervised-Learning/assets/129100456/5a716fd9-3414-4d14-8952-641beed50b4f)
+     
      ![image](https://github.com/AnnLy2023/Module-20---Supervised-Learning/assets/129100456/41d8b314-7477-4886-ac8f-9e1dc115f99d)
-  4. How well does the logistic regression model predict both the O(healthy loan) and 1(high risk loan) labels?
+     
+  7. How well does the logistic regression model predict both the O(healthy loan) and 1(high risk loan) labels?
 
      The precision for the Logistic regression model for the testing data was great at detecting healthy loans (1) and a little less accurate at detecting high risk loan (.85) In terms of the recall, the testing model is great at detecting healthy loan (.99) and a little less accurate at detecting high risk loan (.91). For F1 score, the testing model is great at detecting healthy loan (1) but not so good at detecting high risk one (.88).
 
