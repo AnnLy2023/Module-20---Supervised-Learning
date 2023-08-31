@@ -1,4 +1,4 @@
-# Module-20---Supervised-Learning --- Credit Risk Classification 
+ Credit Risk Classification 
 
 For this challenge, various techniques will be used to train and evaluate a model based on loan risk. The dataset used in this challenge is from historical lending activity from a peer to peer lending services company and will be used to build a model taht can help identify the creditworthiness of borrowers. 
 
